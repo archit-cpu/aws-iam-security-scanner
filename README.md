@@ -121,3 +121,10 @@ Read [Learning Guide](docs/LEARNING_GUIDE.md) to understand what the code demons
 > Built an offline AWS IAM policy scanning tool in Python that identifies broad permissions and sensitive IAM actions, explains findings by severity, and generates CSV/JSON reports through a Streamlit dashboard; added automated tests and GitHub Actions CI.
 
 **License:** MIT. See `LICENSE`.
+## Project Screenshots
+
+### Critical IAM Security Finding
+![Critical IAM Finding](docs/screenshots/critical-finding.png)
+
+### Least Privilege Policy Scan
+![Least Privilege Scan](docs/screenshots/least-privilege.png)
