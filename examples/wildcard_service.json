@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllS3Operations",
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "ManageAllPolicies",
+      "Effect": "Allow",
+      "Action": ["iam:AttachRolePolicy", "iam:CreateAccessKey", "iam:PassRole"],
+      "Resource": "*"
+    }
+  ]
+}
